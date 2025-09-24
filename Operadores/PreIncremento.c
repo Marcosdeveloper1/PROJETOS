@@ -9,6 +9,7 @@ int main() {
     return 0;
 }
 /*
+
 | Operação | O que faz          | Valor mostrado | Valor final |
 | -------- | ------------------ | -------------- | ----------- |
 | `++a`    | Soma **antes**     | Novo valor     | Novo valor  |
