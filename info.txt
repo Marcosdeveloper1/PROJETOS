@@ -1,0 +1,9 @@
+    informações das cartas
+
+    .Estado (char)
+    .Código da carta (char[])
+    .Nome da cidade (char[])
+    .População (int)
+    .Área em km² (float)
+    .PIB (float)
+    .Número de pontos turísticos (int)
