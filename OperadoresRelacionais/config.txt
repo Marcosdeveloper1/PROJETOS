@@ -1,0 +1,9 @@
+se sim : 1
+se não : 0
+
+Verdadeiro ou falso
+a > b (maior que)
+a < b (menor que)
+a <= b (menor ou igual a)
+a == b (igual a)
+a != b (diferente de )

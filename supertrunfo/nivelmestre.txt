@@ -1,0 +1,22 @@
+/*
+
+Comparação simples
+A saída da comparação será 1 ou 0 / caso a relação seja verdadeira ou falsa
+
+Se o resultado da comparação for 1, a carta 1 ganhou
+
+se o resultado for 0, a carta 2 ganhou
+
+var resultado = valorComparativo da carta 1 com a 2
+
+prinft(Resultado): 1 ou 0;
+
+
+*/
+
+// populacao como unsigned long int
+
+//Super poder = calculo de todas os atributos
+//Ex: populacao, area, pib, numero de pontos turisticos, pib per capita / e o inverso da densidade populacional - quanto menor maior o poder.
+
+//Armazenar o super poder como float
