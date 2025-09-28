@@ -1,0 +1,33 @@
+Aqui fica quanto os tipos de variáveis podem armazenar
+
+int : -2,147,483,648 a 2,147,483,647
+
+unsigned int:  0 a 4,294,967,295 // Quando usar unsigned? Imagine que você está desenvolvendo um jogo e precisa armazenar a pontuação do jogador. A pontuação nunca será negativa, então usar unsigned int permite armazenar pontuações maiores do que seria possível com um int comum. aqui os valores nunca são negativos
+
+char: -128 a 127
+
+unsigned char: 0 a 255
+
+long int: -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+
+double: ±1.7E-308 a ±1.7E+308
+
+long double: ±3.4E-4932 a ±1.1E+4932
+
+
+short int : 32767
+
+quando passamos do valor permitido pela variável, fazemos algo chamado "overflow" onde o resultado pode ser 0 ou negativo dependendo do tipo da variavel e modificador.
+
+
+PRATICA RECOMENDADA:
+1. ESCOLHA O TIPO DE DADO APROPRIADO:
+
+2. VERIFIQUE A COMPATIBILIDADE DE tipos
+
+3. USE ESPECIFICADORES DE FORMATO CORRETOS
+
+4. VERIFIQUE O TAMANHO DO TIPO DE DADOS PARA O AMBIENTE
+
+5. CONSIDERE O AMBIENTE DE DESENVOLVIMENTO
+
