@@ -21,11 +21,6 @@ int main() {
 
 
 
-
-
-
-
-
     /*para printar uma variável é preciso primeiramente colocar a identificação das variáveis. Após isso colocamos o nome da variável.
     printf("%+identificação da variável", variavel);
     */
