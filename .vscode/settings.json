@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "CHAT.C": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "CartasSuperTrunfoNIVEL.C": "cpp",
+        "CartasSuperTrunfoMESTRE.C": "cpp"
     }
 }

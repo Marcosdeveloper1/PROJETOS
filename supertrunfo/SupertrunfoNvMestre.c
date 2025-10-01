@@ -73,8 +73,7 @@ int main() {
 
     // População
     printf("População: Carta %d venceu (%d)\n",
-           (populacao1 > populacao2) * 1 + (populacao1 <= populacao2) * 2,
-           populacao1 > populacao2);
+           (populacao1 > populacao2) * 1 + (populacao1 <= populacao2) * 2, populacao1 > populacao2);
 
     // Área
     printf("Área: Carta %d venceu (%d)\n",
