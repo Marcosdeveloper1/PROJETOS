@@ -5,11 +5,11 @@ int main() {
     char estado1[50]="A";
     char codigo1[5]= "A01";
     char nome_cidade1[50]= "SÃO PAULO";
-    unsigned long int populacao1= 1235000;
-    float area1= 1521.11;
-    double pib1= 699.280000000;
+    unsigned long int populacao1= 0; // 1235000
+    float area1= 0; // 1521.11
+    double pib1= 0; // 699.280000000
     int resultadopib;
-    int pontos_turisticos1=50;
+    int pontos_turisticos1=0; //50
     float densidade_populacional1;
     float pib_per_capita1;
 
@@ -65,7 +65,7 @@ int main() {
 
   // Área para exibição dos dados da cidade
   // CARTA 01
-  /*
+
     printf("\nDADOS DA CARTA 01\n");
     printf("Estado: %s \n",estado1);
     printf("Código: %s \n",codigo1);
@@ -77,12 +77,12 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km² \n",densidade_populacional1);
     printf("PIB per Capita: %.2f reais \n",pib_per_capita1);
     
-    */
+  
     
 
 
     // CARTA 02
-    /*
+  
     printf("\nDADOS DA CARTA 02\n");
     printf("Estado: %s \n",estado2);
     printf("Código: %s \n",codigo2);
@@ -93,8 +93,35 @@ int main() {
     printf("Pontos Turísticos: %d \n",pontos_turisticos2);
     printf("Densidade Populacional: %.2f hab/km² \n",densidade_populacional2);
     printf("PIB per Capita: %.2f reais \n",pib_per_capita2);   
-    */
+  
+
     //Comparativos
-    printf("Comparacao do PIB:(%d)\n", resultadopib);
+    printf("\n--- COMPARATIVOS ---\n");
+    printf("População: Carta %d venceu (%d)\n",
+          (populacao1 > populacao2) * 1 + (populacao1 <= populacao2) * 2, populacao1 > populacao2);
+
+    printf("Área: Carta %d venceu (%d)\n",
+          (area1 > area2) * 1 + (area1 <= area2) * 2, area1 > area2);
+
+    printf("PIB: Carta %d venceu (%d)\n",
+          (pib1 > pib2) * 1 + (pib1 <= pib2) * 2, pib1 > pib2);
+
+    printf("Pontos Turísticos: Carta %d venceu (%d)\n",
+          (pontos_turisticos1 > pontos_turisticos2) * 1 + (pontos_turisticos1 <= pontos_turisticos2) * 2, pontos_turisticos1 > pontos_turisticos2);
+    
+    printf("Densidade Populacional: Carta %d venceu (%d)\n",
+       (densidade_populacional1 < densidade_populacional2) ? 1 : 2,
+       (densidade_populacional1 < densidade_populacional2) ? 1 : 0);
+
+    printf("Pontos Turísticos: Carta %d venceu (%d)\n",
+          (pontos_turisticos1 > pontos_turisticos2) * 1 + (pontos_turisticos1 <= pontos_turisticos2) * 2, pontos_turisticos1 > pontos_turisticos2);
+
+    printf("PIB per Capita: Carta %d venceu (%d)\n",
+          (pib1 > pib2) * 1 + (pib1 <= pib2) * 2, pib1 > pib2);
+      
 return 0;
 } 
+/*
+    printf("População: Carta %d venceu (%d)\n",
+           (populacao1 > populacao2) * 1 + (populacao1 <= populacao2) * 2, populacao1 > populacao2);
+*/
