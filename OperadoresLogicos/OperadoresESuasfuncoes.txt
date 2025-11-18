@@ -1,0 +1,37 @@
+Operador AND Lógico (&&)
+
+Para compreender o funcionamento do operador AND lógico (&&), observe!
+
+
+A	B	A && B
+1	1	1
+1	0	0
+0	1	0
+0	0	0
+------------------------------------
+
+
+Operador OR Lógico (||)
+
+Para entender como o operador OR lógico (||) opera, veja a tabela a seguir.
+
+
+ 
+
+A	B	A || B
+1	1	1
+1	0	1
+0	1	1
+0	0	0
+------------------------------------
+
+
+
+Operador NOT Lógico (!)
+
+Para conhecer o comportamento do operador NOT lógico (!), confira a próxima tabela.
+
+
+A	!A
+true	false
+false	true
